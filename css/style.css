@@ -5,8 +5,8 @@ body {
     min-height: 99%;
     width: 100%;
     min-width: 550px;
-    color: #0DB954;
-    background: #191414 ;
+    color: #1DB954;
+    background: #000000 ;
     font-family: cursor, monospace;
     overflow-x: hidden;
   }
@@ -36,7 +36,7 @@ body {
   /* Cursor styles */
   .cursor {
     font-size: 12px;
-    color: #FFFF00;
+    color: #73ABAD;
     background-color: #73ABAD;
     position: relative;
     opacity: 1;
