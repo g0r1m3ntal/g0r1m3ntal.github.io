@@ -93,30 +93,8 @@ function commander(cmd) {
         window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
       }, 1000);
       break;
-    case "youtube":
-      addLine("Sending you to the link...", "color2", 80);
-      setTimeout(function () {
-        window.open('https://youtu.be/KtYby2QN0kQ?si=FN3fcEEVzT5gwGXv');
-      }, 2000);
-      break;
-    case "slack":
-      addLine("Sending you to the link...", "color2", 80);
-      setTimeout(function () {
-        window.open('https://join.slack.com/share/enQtNjA2OTUwOTI1NDc3NC1iOWY3ZDk0NzJhYWFkYTc4OWFlMDk0YTlkMDhkMmY2N2MxMjRkYWMxMzU2MzllZjRhMDdkMTdjZmJmYTUyYjZl');
-      }, 2000);
-      break;
     case "social":
       loopLines(social, "color2 margin", 80);
-      break;
-    case "projects":
-      loopLines(projects, "color2 margin", 80);
-      break;
-    case "wiki":
-      addLine("Opening nightingale wiki...", "color2", 80);
-      newTab(wiki);
-      break;
-    case "blog":
-      loopLines(blogs, "color2 margin", 80);
       break;
     case "resume":
       addLine("Opening resume...", "color2", 80);
@@ -131,7 +109,7 @@ function commander(cmd) {
       addLine("<br>", "command", 80 * commands.length + 50);
       break;
     case "email":
-      addLine('Opening mailto:<a href="mailto:raja.nagori@owasp.org">raja.nagori@owasp.org</a>...', "color2", 80);
+      addLine('Opening gmail:<a href="ubuntulubar@gmail.com">ubuntulubar@gmail.com</a>...', "color2", 80);
       newTab(email);
       break;
     case "clear":
@@ -141,10 +119,6 @@ function commander(cmd) {
       }, 1);
       break;
     // socials
-    case "youtube":
-      addLine("Opening YouTube...", "color2", 80);
-      newTab(youtube);
-      break;
     case "twitter":
       addLine("Opening Twitter...", "color2", 0);
       newTab(twitter);
