@@ -109,8 +109,8 @@ function commander(cmd) {
       addLine("<br>", "command", 80 * commands.length + 50);
       break;
     case "email":
-      addLine('Opening gmail', "color2", 80);
-      newTab(email);
+      addLine('Opening gmail :<a href="ubuntulubar@gmail.com"></a>...', "color2", 80);
+      newTab(gmail);
       break;
     case "clear":
       setTimeout(function () {
