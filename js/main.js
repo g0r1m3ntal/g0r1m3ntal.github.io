@@ -108,7 +108,7 @@ function commander(cmd) {
       loopLines(commands, "color2", 80);
       addLine("<br>", "command", 80 * commands.length + 50);
       break;
-    case "gmail":
+    case "email":
       addLine('ubuntulubar@gmail.com', "color2", 80);
       newTab(gmail);
       break;
