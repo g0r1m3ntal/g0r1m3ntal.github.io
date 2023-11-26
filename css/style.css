@@ -132,7 +132,7 @@ body {
   /* Inherit, a, a:hover, and a:focus styles */
   .inherit,
   a {
-    color: #e87575;
+    color: #ff0000;
   }
   a {
     text-decoration: inherit;
