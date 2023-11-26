@@ -5,7 +5,7 @@ body {
     min-height: 99%;
     width: 100%;
     min-width: 550px;
-    color: #7b867f;
+    color: #ffffff;
     background: #000000 ;
     font-family: cursor, monospace;
     overflow-x: hidden;
@@ -60,7 +60,7 @@ body {
   #command {
     cursor: text;
     height: 50px;
-    color: #73ABAD;
+    color: rgb(76, 230, 68)
   }
   #liner {
     line-height: 1.3em;
