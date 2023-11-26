@@ -109,7 +109,7 @@ function commander(cmd) {
       addLine("<br>", "command", 80 * commands.length + 50);
       break;
     case "email":
-      addLine('Opening gmail:<a href="ubuntulubar@gmail.com">ubuntulubar@gmail.com</a>...', "color2", 80);
+      addLine('Opening gmail:<a href="ubuntulubar@gmail.com"></a>...', "color2", 80);
       newTab(email);
       break;
     case "clear":
