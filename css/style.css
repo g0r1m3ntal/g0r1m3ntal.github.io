@@ -113,13 +113,13 @@ body {
   
   /* Index, color2, command, error, and white styles */
   .index {
-    color: #DCDCCC;
+    color: #ffffff;
   }
   .color2 {
     color: #1DB954;
   }
   .command {
-    color: #ff00ee;
+    color: #ffd700;
     text-shadow: 0 0 4px #fc8f00; 
   }
   .error {
@@ -138,8 +138,8 @@ body {
     text-decoration: inherit;
   }
   a:hover {
-    background: #73ABAD;
-    color: #211830;
+    background: #00f7ff;
+    color: #000000;
   }
   a:focus {
     outline: 0;
