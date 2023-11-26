@@ -70,7 +70,7 @@ body {
     opacity: 0;
   }
   #liner::before {
-    color: #FFFF00;
+    color: #ffd700;
     content: "g0r1m3ntal@about-me:~$";
   }
   #liner.password::before {
