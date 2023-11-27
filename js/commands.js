@@ -1,5 +1,4 @@
 // These are the variable for the direct links
-var twitter = "https://www.twitter.com/KbpopX";
 var linkedin = "https://www.linkedin.com/in/gaurang-vashista-674017204/";
 var instagram = "https://www.instagram.com/gaurangvashista";
 var github = "https://github.com/g0r1m3ntal";
@@ -19,7 +18,6 @@ whois = [
 
 social = [
   "<br>",
-  'twitter        <a href="' + twitter + '" target="_blank">twitter/KbpopX' + '</a>',
   'linkedin       <a href="' + linkedin + '" target="_blank">linkedin/gaurang-vashista-674017204' + "</a>",
   'instagram      <a href="' + instagram + '" target="_blank">instagram/gaurangvashista' + '</a>',
   'github         <a href="' + github + '" target="_blank">github/g0r1m3ntal' + "</a>",
